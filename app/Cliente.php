@@ -4,6 +4,10 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
+/**
+* Nos ayuda a manejar los datos en la tabla cliente
+*/
+
 class Cliente extends Model
 {
     protected $table = 'cliente';
